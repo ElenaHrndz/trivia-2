@@ -1,3 +1,5 @@
+
+
 .vista {
 	width: 50%;
 	height: 100%;
@@ -5,6 +7,13 @@
 	display: block;
 	text-align: center;
 }
+
+
+
+
+
+
+
 
 @media(min-width:768px) {
 	.vista {
@@ -51,10 +60,11 @@ img {
 
 .escogerOpciones .radio-toolbar label {
 	display: block;
-	background-color: #ddd;
+  color:#ffffff;
+	background-color: #ec8c69;
 	padding: 10px 0;
-	font-family: Arial;
 	font-size: 16px;
+ font-family: helvetica;
 	cursor: pointer;
 	margin: 7px 0;
 	text-align: center;
@@ -69,7 +79,7 @@ img {
 }
 
 .escogerOpciones .radio-toolbar input[type="radio"]:checked+label {
-	background-color: #bbb;
+	background-color: #1EB0B0;
 }
 
 button {
@@ -79,16 +89,30 @@ button {
 	padding: 10px;
 	width: 200px;
 	margin: auto;
-	border-radius: 2px;
+	border-radius: 8px;
 	cursor: pointer;
 	text-transform: uppercase;
 	font-size: 20px;
 }
 
 button:hover {
-	background-color: rgba(0, 0, 0, .6)
+	background-color: #ec8c69
 }
 
-h1{
+
+
+  h1{
+ font-family: Trebuchet MS;
   text-align:center;
+  color: #1EB0B0;
+  font-size: 80px;
+
+}
+
+
+p{
+  text-align:center;
+  color: 010101;
+  font-size: 18px;
+  font-family: Lucida Sans Unicode;
 }
