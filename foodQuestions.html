@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comidas Preguntas</title>
+    <link rel="stylesheet" href="../css/style.css"></link>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="vista vista-4">
+        <div class="pregunta pregunta-1">
+            <img src="https://ipsumimage.appspot.com/320x200?l=NeceitasMuchaCarne" alt]"" name="question">
+
+            <div class="escogerOpciones">
+                <form class="form-group">
+                    <div class="radio-toolbar">
+                            <input type="radio" name="answer0" id="food-1" value="correct">
+                            <label for="food-1">Carne</label>
+                            <input type="radio" name="answer0" id="food-2" value="wrong">
+                            <label for="food-2">Autobus</label>
+
+                            <input type="radio" name="answer0" id="food-3" value="wrong">
+                            <label for="food-3">Pizza</label>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+        <div class="pregunta pregunta-2">
+            <img src="https://ipsumimage.appspot.com/320x200?l=FijateCuandoPasasEnLaCalle" alt="" name="question">
+
+            <div class="escogerOpciones">
+                <form class="form-group">
+                    <div class="radio-toolbar">
+                            <input type="radio" name="answer1" id="food1-1" value="wrong">
+                            <label for="food1-1">Pollo</label>
+
+                            <input type="radio" name="answer1" id="food1-2" value="correct">
+                            <label for="food1-2">Autobus</label>
+
+                            <input type="radio" name="answer1" id="food1-3" value="wrong">
+                            <label for="food1-3">Pizza</label>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class="pregunta pregunta-3">
+                <img src="https://ipsumimage.appspot.com/320x200?l=QueChatarraComes" alt="" name="question">
+
+                <div class="escogerOpciones">
+                    <form class="form-group">
+                       <div class="radio-toolbar">
+                            <input type="radio" name="answer2" id="food2-1" value="wrong">
+                        <label for="food2-1">Pollo</label>
+
+                        <input type="radio" name="answer2" id="food2-2" value="wrong">
+                        <label for="food2-2">frutas</label>
+
+                        <input type="radio" name="answer2" id="food2-3"value="correct">
+                        <label for="food2-3">Pizza</label>
+                       </div>
+
+
+                    </form>
+                </div>
+        </div>
+        <div id="results"></div>
+        <button class="submit" onclick="getResults();" type="submit">Enviar</button>
+
+    </div>
+
+
+</body>
+
+</html>

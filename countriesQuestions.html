@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paises Preguntas</title>
+    <link rel="stylesheet" href="../css/style.css"></link>
+</head>
+
+<body>
+  <header>
+<h1> Paises </h1>
+  </header>
+  <br>
+  <br>
+  <br>
+  <p> A que país corresponde cada saludo </p>
+  <div class="vista vista-4">
+        <!--<form name="quiz">-->
+            <div class="pregunta pregunta-1">
+              <p> Hallo </p>
+
+                <div class="escogerOpciones">
+                    <div class="form-group">
+                        <div class="radio-toolbar">
+                            <input type="radio" name="answer0" id="pais-1" value="correct" >
+                            <label for="pais-1">Alemania</label>
+
+                            <input type="radio" name="answer0" id="pais-2" value="wrong" >
+                            <label for="pais-2">Colombia</label>
+
+                            <input type="radio" name="answer0" id="pais-3" value="wrong" >
+                            <label for="pais-3">Peru</label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="pregunta pregunta-2">
+                <img src="https://ipsumimage.appspot.com/320x200?l=Bonjour" alt="" name="question">
+
+                <div class="escogerOpciones">
+                    <div class="form-group">
+                        <div class="radio-toolbar">
+                            <input type="radio" name="answer1" id="pais1-1" value="correct" >
+                            <label for="pais1-1">Francia</label>
+                            <input type="radio" name="answer1" id="pais1-2" value="wrong" >
+                            <label for="pais1-2">Venezuela</label>
+                            <input type="radio" name="answer1" id="pais1-3" value="wrong" >
+                            <label for="pais1-3">Colombia</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pregunta pregunta-3">
+                <img src="https://ipsumimage.appspot.com/320x200?l=Hej " alt="" name="question">
+
+                <div class="escogerOpciones">
+                    <div class="form-group">
+                        <div class="radio-toolbar">
+                            <input type="radio"  name="answer2" id="pais2-1"value="wrong" >
+                            <label for="pais2-1">España</label>
+
+                            <input type="radio" name="answer2" id="pais2-2"value="correct" >
+                            <label for="pais2-2">Dinamarca</label>
+
+                            <input type="radio" name="answer2" id="pais2-3"value="wrong" >
+                            <label for="pais2-3">Colombia</label>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="submit" onclick="getResults();">Enviar</button>
+        <!-- </form> -->
+        <div id="results"></div>
+
+
+
+    </div>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
