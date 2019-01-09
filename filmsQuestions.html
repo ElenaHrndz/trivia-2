@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Películas Preguntas</title>
+    <link rel="stylesheet" href="../css/style.css"></link>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <header>
+<h1> Películas </h1>
+  </header>
+  <br>
+  <br>
+
+    <div class="vista vista-4">
+    <div class="pregunta" name="question">
+            <p> ¿Qué actriz mexicana ganó en 2018 el Hollywood Film Award como Nueva Actriz? <p/>
+            <div class="escogerOpciones">
+                <form class="form-group">
+                    <div class="radio-toolbar">
+                            <input type="radio" name="answer0" id="film-1" value="wrong">
+                            <label for="film-1">Salma Hayek</label>
+                            <input type="radio" name="answer0" id="film-2" value="wrong">
+                            <label for="film-2">Dolores del Río</label>
+
+                            <input type="radio" name="answer0" id="film-3" value="correct">
+                            <label for="film-3">Yalitza Aparicio</label>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+        <div class="pregunta" name="question">
+            <p> ¿Qué director Ruso filmó la pelicula 'Qué viva México'en 1932? <p/>
+
+            <div class="escogerOpciones">
+                <form class="form-group">
+                    <div class="radio-toolbar">
+                            <input type="radio" name="answer1" id="film-1" value="wrong">
+                            <label for="film1-1">Andrèi Tarkovsk</label>
+
+                            <input type="radio" name="answer1" id="film-2" value="correct">
+                            <label for="film1-2">Sergéi Eisenstein</label>
+
+                            <input type="radio" name="answer1" id="food1-3" value="wrong">
+                            <label for="film1-3">Sergéi Bondarchuck</label>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class="pregunta" name="question">
+                <p> ¿Quién ha sido la actriz más nominada al oscar?  <p/>
+
+                <div class="escogerOpciones">
+                    <form class="form-group">
+                       <div class="radio-toolbar">
+                            <input type="radio" name="answer2" id="film-1" value="wrong">
+                        <label for="film2-1">Katharine Hepburn</label>
+
+                        <input type="radio" name="answer2" id="film-2" value="correct">
+                        <label for="film2-2">Meryl Stree</label>
+
+                        <input type="radio" name="answer2" id="film-3"value="wrong">
+                        <label for="film2-3">Bette Davis</label>
+                       </div>
+
+
+                    </form>
+                </div>
+        </div>
+        <div id="results"></div>
+        <button class="submit" onclick="getResults();" type="submit">Enviar</button>
+
+    </div>
+
+
+</body>
+
+</html>
